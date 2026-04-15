@@ -1,4 +1,4 @@
-name: 14-Artifact-Download
+name: artifact-Download
 on: [push]
 
 jobs:
