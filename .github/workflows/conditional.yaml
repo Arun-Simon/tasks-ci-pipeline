@@ -1,0 +1,9 @@
+name: conditional
+on: [push]
+
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/conditional'
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Deploy"
