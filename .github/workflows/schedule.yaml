@@ -1,0 +1,11 @@
+
+name: cron-schedule
+on:
+  schedule:
+    - cron: "33 22 * * *"
+
+jobs:
+  nightly:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Nightly"
