@@ -1,4 +1,4 @@
-name: 12-Cache
+name: cache
 on: [push]
 
 jobs:
